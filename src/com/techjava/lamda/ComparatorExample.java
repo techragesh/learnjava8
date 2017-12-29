@@ -28,9 +28,7 @@ public class ComparatorExample {
 
         System.out.println("After Sorting");
 
-        for (Person person : personList) {
-            System.out.println(person.getPersonName() + " "  + person.getPersonLocation() );
-        }
+        personList.forEach(System.out::println);
 
         System.out.println("----------------------------------------");
 

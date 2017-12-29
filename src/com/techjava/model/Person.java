@@ -37,4 +37,13 @@ public class Person {
     public void setPersonLocation(String personLocation) {
         this.personLocation = personLocation;
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "personId=" + personId +
+                ", personName='" + personName + '\'' +
+                ", personLocation='" + personLocation + '\'' +
+                '}';
+    }
 }
